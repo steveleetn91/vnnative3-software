@@ -1,0 +1,33 @@
+{
+  "name": "vnnative3 software",
+  "version": "1.0.0",
+  "description": "Vnnative 3 software",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vnnative3-software.git"
+  },
+  "keywords": [
+    "vnnative3",
+    "software",
+    "stevelee"
+  ],
+  "author": "stevelee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vnnative3-software/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/vnnative3-software#readme",
+  "devDependencies": {
+    "electron": "^17.2.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "typescript": "^4.6.3"
+  }
+}
